@@ -5,7 +5,7 @@ type Props = {
   title: string,
 };
 
-class Hello extends Component<Props> {
+class App extends Component<Props> {
   render () {
     return (
       <div>
@@ -15,4 +15,4 @@ class Hello extends Component<Props> {
   }
 }
 
-export default Hello;
+export default App;

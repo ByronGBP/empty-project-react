@@ -3,9 +3,13 @@
 import './styles/main';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './components/Hello';
+import App from './components/App';
 
 const title: string = 'YOUH!';
 const container: any = document.getElementById('main-container');
 
-ReactDOM.render(<Hello title={title}/>, container);
+if (!container) {
+  throw new Error(`Container doesn't exist`);
+}
+
+ReactDOM.render(<App title={title}/>, container);
