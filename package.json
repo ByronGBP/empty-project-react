@@ -5,9 +5,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "webpack --config webpack.config.js --watch & webpack-dev-server --config webpack.config.js --mode development",
-    "flow": "flow",
-    "test": "jest",
-    "flow-status": "flow status"
+    "flow": "flow-watch",
+    "test": "jest"
   },
   "author": "ByronGBP",
   "license": "ISC",
